@@ -1,0 +1,58 @@
+body{
+  font-family: Comic Sans MS;
+}
+.wrapper{
+  width: 500px;
+  margin: auto;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  
+}
+#header{
+  width: 499px;
+  display: flex;
+}
+#title{
+width: 240px;
+display: inline-block;
+}
+#logo{
+  width: 80px;
+  float: right;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+#boxes{
+  font-size: 15pt;
+  width: 499px;
+  display: flex;
+}
+
+#paraBox{
+width: 300px;
+
+}
+
+
+#field {
+  color: grey;
+  margin-left: 20px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+button{
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto; 
+  display: block;
+}
